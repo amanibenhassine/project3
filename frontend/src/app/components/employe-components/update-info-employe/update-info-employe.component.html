@@ -1,0 +1,83 @@
+<div class="container" >
+
+   
+        
+    <div class="row">
+
+        
+        <div class="col-lg-1"></div>
+
+        <div class="col-lg-10">
+            <div id="ui">
+                <form (ngSubmit)="processForm()">
+                <h3><i class="fa fa-angle-right"></i> Informations personnelles</h3>
+                <br>
+                    
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="fname">Prénom</label>
+                        <input type="text" name="prenom" class="form-control" [(ngModel)]="employe.prenom">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <label for="fname">Nom</label>
+                        <input type="text" name="nom" class="form-control" [(ngModel)]="employe.nom">
+                    </div>
+                </div>
+
+                <label for="fname">email</label>
+                <input type="text" name="email" class="form-control" [(ngModel)]="employe.email">
+                
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="fname">Date de naissance</label>
+                        <input type="text" name="dateOfBirth" class="form-control" [(ngModel)]="employe.dateOfBirth">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <label for="fname">Tél</label>
+                        <input type="text" name="phone" class="form-control" [(ngModel)]="employe.phone">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-8">
+                        <label for="fname">Adresse</label>
+                        <input type="text" name="adresse" class="form-control" [(ngModel)]="employe.adresse">
+                    </div>
+
+                    <div class="col-lg-4">
+                        <label for="fname">Ville</label>
+                        <input type="text" name="ville" class="form-control" [(ngModel)]="employe.ville">
+                    </div>
+                </div>
+
+
+               
+               
+
+                
+
+               
+
+               
+                
+                    
+                <br>
+                <br>
+                <input type="submit" value="save" class="btn">
+
+            </form>
+            </div>
+
+        
+
+    </div>
+
+    <div class="col-lg-1"></div>
+
+    </div>
+    
+        
+    
+  </div>

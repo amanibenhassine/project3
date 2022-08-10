@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="199.99995mm"
+   height="49.999897mm"
+   viewBox="0 0 199.99995 49.999897"
+   version="1.1"
+   id="svg4507"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo_NeoXam_2018_RGB_WhiteBG.svg">
+  <defs
+     id="defs4501">
+    <clipPath
+       id="clipPath4547"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4545"
+         d="M 0,141.732 H 566.929 V 0 H 0 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-33.475906"
+     inkscape:cy="883.05942"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="959"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4504">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-114.6905,-392.95243)">
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,114.6905,442.95233)"
+       inkscape:label="NeoXam_logo_2018-RGB-BG"
+       id="g4517">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4519"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 0,0 H 566.929 V 141.732 H 0 Z" />
+      <g
+         transform="translate(89.6302,104.078)"
+         id="g4521">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4523"
+           style="fill:#0ed8b8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -16.788,16.788 -27.434,6.144 0,-21.289 27.434,6.144 16.789,16.788 Z" />
+      </g>
+      <g
+         transform="translate(89.6302,37.6546)"
+         id="g4525">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4527"
+           style="fill:#0ed8b8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 16.789,-16.788 27.434,-6.144 0,21.289 -27.434,-6.144 -16.788,-16.788 Z" />
+      </g>
+      <g
+         transform="translate(122.8416,70.8666)"
+         id="g4529">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4531"
+           style="fill:#0ed8b8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 16.789,16.789 6.145,27.433 -21.289,0 6.145,-27.434 16.789,-16.789 Z" />
+      </g>
+      <g
+         transform="translate(56.4188,70.8666)"
+         id="g4533">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4535"
+           style="fill:#22211f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 -16.789,-16.789 -6.145,-27.434 21.289,0 -6.145,27.433 -16.789,16.789 Z" />
+      </g>
+      <g
+         transform="translate(218.116,60.4486)"
+         id="g4537">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4539"
+           style="fill:#22211f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -33.952,44.649 h -12.464 v -66.855 h 13.324 L -33.045,22.443 0.86,-22.206 H 13.372 V 44.649 H 0 Z" />
+      </g>
+      <g
+         id="g4541">
+        <g
+           clip-path="url(#clipPath4547)"
+           id="g4543">
+          <g
+             transform="translate(250.8695,65.7484)"
+             id="g4549">
+            <path
+               inkscape:connector-curvature="0"
+               id="path4551"
+               style="fill:#22211f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 c 1.099,5.731 4.537,9.264 10.411,9.264 5.349,0 8.93,-3.343 10.076,-9.264 z m 10.506,20.009 c -13.848,0 -23.399,-9.933 -23.399,-24.498 0,-14.564 9.837,-24.211 24.019,-24.211 7.785,0 14.471,2.197 19.723,7.02 l -7.306,8.023 c -3.342,-2.818 -7.689,-4.442 -11.7,-4.442 -5.873,0 -10.553,2.913 -11.89,9.599 H 32.76 c 0.143,1.05 0.238,2.77 0.238,4.203 C 32.95,10.124 23.83,20.009 10.506,20.009" />
+          </g>
+          <g
+             transform="translate(313.3748,48.6537)"
+             id="g4553">
+            <path
+               inkscape:connector-curvature="0"
+               id="path4555"
+               style="fill:#22211f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 c -7.02,0 -12.273,5.252 -12.273,12.749 0,7.497 5.253,12.75 12.273,12.75 7.02,0 12.32,-5.253 12.32,-12.75 C 12.32,5.252 7.02,0 0,0 m 0,37.104 c -14.374,0 -24.976,-10.41 -24.976,-24.355 0,-13.944 10.602,-24.354 24.976,-24.354 14.422,0 25.07,10.41 25.07,24.354 0,13.945 -10.648,24.355 -25.07,24.355" />
+          </g>
+          <g
+             transform="translate(397.9422,105.0975)"
+             id="g4557">
+            <path
+               inkscape:connector-curvature="0"
+               id="path4559"
+               style="fill:#22211f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="M 0,0 H -15.377 L -30.181,-22.921 -44.889,0 h -15.663 l 22.205,-32.902 -22.826,-33.953 h 15.377 l 15.425,23.829 15.377,-23.829 H 0.62 l -22.873,33.953 z" />
+          </g>
+          <g
+             transform="translate(420.2879,48.6537)"
+             id="g4561">
+            <path
+               inkscape:connector-curvature="0"
+               id="path4563"
+               style="fill:#22211f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 c -7.307,0 -11.938,5.683 -11.938,12.749 0,7.067 4.631,12.75 11.938,12.75 7.114,0 11.938,-5.444 11.938,-12.75 C 11.938,5.443 7.114,0 0,0 m 11.556,30.752 c -3.056,3.772 -7.497,6.352 -13.848,6.352 -12.751,0 -22.397,-10.458 -22.397,-24.355 0,-13.895 9.646,-24.354 22.397,-24.354 6.351,0 10.84,2.58 13.848,6.304 v -5.11 H 23.733 V 35.863 H 11.556 Z" />
+          </g>
+          <g
+             transform="translate(509.0574,85.7572)"
+             id="g4565">
+            <path
+               inkscape:connector-curvature="0"
+               id="path4567"
+               style="fill:#22211f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="M 0,0 C -6.065,0 -12.129,-2.053 -15.711,-7.927 -18.814,-3.009 -24.306,0 -30.992,0 c -5.253,0 -10.315,-1.768 -13.61,-6.685 v 5.444 H -56.73 v -46.273 h 12.462 v 25.356 c 0,6.972 4.442,10.459 9.79,10.459 5.683,0 9.026,-3.678 9.026,-10.363 v -25.452 h 12.463 v 25.356 c 0,6.972 4.441,10.459 9.79,10.459 5.635,0 9.024,-3.678 9.024,-10.363 v -25.452 h 12.417 v 29.463 C 18.242,-7.306 10.888,0 0,0" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

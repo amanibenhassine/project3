@@ -1,0 +1,82 @@
+<!--<nav class="navbar  navbar-expand bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li style="margin-right: 20px; margin-left: 30px; color:white; font-size: 150%">HR Profile</li>
+    </ul>
+    <div style="align-content:end;">
+      <button type="button" class="btn btn-primary" style="margin-right:10px" routerLink="/view-posting">Homepage</button>
+      <button type="button" class="btn btn-primary" style="margin-right:10px"routerLink="/hr-form">Edit Profile</button>
+      <button type="button"  class="btn" style="background-color:#f7ae00" routerLink="/"> Sign Out</button>
+    </div>
+
+  </div>
+</nav>-->
+
+<div class="eaton mat-typography" style="overflow-x:hidden;" fxFlexFill cdkScrollable>
+  <mat-toolbar color="primary" class="main-header mat-elevation-z4" [class.hidden]="toggleSearch">
+    <span>
+      <h1>My Profile</h1>
+    </span>
+    <span class="example-spacer"></span>
+    <div style="position: absolute; right: 0;">
+      <button mat-button routerLink="/view-posting"> View Posting </button>
+      <button mat-button routerLink="/hr-form">Edit Profile</button>
+      <button mat-button routerLink="/view-applicants">Received Applications</button>
+      <button mat-button routerLink="/"> Sign out </button>
+    </div>
+  </mat-toolbar>
+</div>
+
+
+<!-- general info starts -->
+
+<body>
+
+  <div >
+
+  <div>
+    <img src="{{pic}}" alt="Card image" class="pro_photo" style="height:100px; width: 100px; outline: 1px">
+  </div>
+
+  <br>
+
+
+    <div class="card border-primary mb-3" style="margin-top:20px">
+      <div class="card-body">
+        <h4 class="card-title"><b>About Me: {{firstName}}</b>
+          <span style="margin-left: 5px"></span>
+          <b>{{lastName}}</b></h4>
+
+        <h5>Working at {{company}} </h5>
+        <!-- <p>Start At: {{starDate}}</p> -->
+        <p>Since: {{startDate}}</p>
+        <p>As a: {{title}}</p>
+        <p>phone #: {{phone}}</p>
+      </div>
+    </div>
+
+    <div class="card border-primary mb-3" style="margin-top:20px">
+      <div class="card-body">
+        <h4 class="card-title"><b>Notes</b></h4>
+        <p> {{note}} </p>
+      </div>
+    </div>
+
+    <div class="card border-primary mb-3" style="margin-top:20px">
+      <div class="card-body">
+        <h4 class="card-title"><b>Contacts</b></h4>
+        <p> {{contacts}}</p>
+      </div>
+    </div>
+
+  </div>
+
+  </body>
+
+<nav class="navbar bottom navbar-dark bg-dark">
+  <p class="navbar-text text-center">Best place to find the best employee...</p>
+</nav>

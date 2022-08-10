@@ -1,0 +1,29 @@
+<h1 mat-dialog-title>Recruiter Info</h1>
+
+<div mat-dialog-content>
+    <mat-form-field>
+        <mat-label>Name:</mat-label>
+        <input matInput [(ngModel)]="data.name">
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>Poste:</mat-label>
+        <input matInput [(ngModel)]="data.poste">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Email:</mat-label>
+        <input matInput [(ngModel)]="data.email">
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>Phone :</mat-label>
+        <input matInput [(ngModel)]="data.phone">
+    </mat-form-field>
+   
+</div>
+
+
+<div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">No Thanks</button>
+    <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Save</button>
+</div>

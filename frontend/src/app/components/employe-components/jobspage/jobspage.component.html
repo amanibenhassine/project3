@@ -1,0 +1,84 @@
+
+<form (submit)="searchJob(searchForm)" #searchForm="ngForm">
+    <div class="example-container">
+        <table class="example-full-width" cellspacing="0">
+          <tr >
+            <td>
+                <mat-form-field class="example-full-width" appearance="outline">
+                    <mat-label>Job Title</mat-label>
+                    <input matInput type="text" placeholder="Job Title/Keyword" name="keyword" [(ngModel)] = "enteredjobTitle" [ngModelOptions]="{standalone: true}">
+                </mat-form-field>
+                </td>
+    <td>
+        <mat-form-field class="example-full-width" appearance="outline">
+            <mat-label>Job Type</mat-label>
+            <mat-select name="jobType" [(ngModel)] = "enteredjobType" [ngModelOptions]="{standalone: true}">
+              <mat-option *ngFor="let jobtype of jobtypes" [value]="jobtype.value">
+                {{jobtype.viewValue}}
+              </mat-option>
+            </mat-select>
+            </mat-form-field>
+    </td>
+    <td>
+        <mat-form-field class="example-full-width" appearance="outline">
+            <mat-label>Location</mat-label>
+            <mat-select [(ngModel)] = "enteredlocation" [ngModelOptions]="{standalone: true}">
+              <mat-option *ngFor="let location of locations" [value]="location.value">
+                {{location.viewValue}}
+              </mat-option>
+            </mat-select>
+            </mat-form-field>
+    </td>
+    <td>
+
+        <mat-form-field class="example-full-width" appearance="outline">
+            <mat-label>Industry</mat-label>
+            <mat-select [(ngModel)] = "enteredindustryType" [ngModelOptions]="{standalone: true}">
+              <mat-option *ngFor="let industry of industries" [value]="industry.value">
+                {{industry.viewValue}}
+              </mat-option>
+            </mat-select>
+            </mat-form-field>
+    </td>
+    <td>
+        <button mat-stroked-button color="warn" name="search" type="submit">Search</button>
+    </td>
+    </tr>
+    </table>
+    </div>
+</form>
+
+<br>
+
+<h1 style="font-size: 15px">Search Result:</h1>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th><span style="margin-left: 20px"></span>Job Title</th>
+                    <th><span style="margin-left: 20px"></span>Job type</th>
+                    <th><span style="margin-left: 20px"></span>location</th>
+                    <th><span style="margin-left: 20px"></span>Industry type</th>
+                    <th><span style="margin-left: 20px"></span>Company</th>
+                    <th><span style="margin-left: 20px"></span>Expiration Date</th> 
+                    <th><span style="margin-left: 20px"></span>View</th>
+                    <th><span style="margin-left: 20px"></span>Apply</th>
+                </tr>
+            </thead>
+            <tbody style="margin-left: 20px">
+              <tr *ngFor="let j of job">
+                <td><span style="margin-left: 20px"></span>{{ j.title }}</td>
+                <td><span style="margin-left: 20px"></span>{{ j.jobType }}</td>
+                <td><span style="margin-left: 20px"></span>{{ j.location }}</td>
+                <td><span style="margin-left: 20px"></span>{{ j.industryType }}</td>
+                <td><span style="margin-left: 20px"></span>{{ j.company }}</td>
+                <td><span style="margin-left: 20px"></span>{{ j.expirationDate }}</td> 
+                <td><span style="margin-left: 20px"></span>
+                        <button mat-raised-button color="warn" (click)= "openDialog(j)">View</button>
+                    </td>
+                    <td><span style="margin-left: 20px"></span>
+                        <button class="applybutton" mat-raised-button color="warn" routerLink="/jobappform"  (click)="applyJob(j)">Apply</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>

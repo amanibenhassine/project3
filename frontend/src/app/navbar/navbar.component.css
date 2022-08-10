@@ -1,0 +1,15 @@
+.btn{
+    background-color: #eee;
+    top: 5%;
+}
+.logo{
+    position: fixed;
+  padding: 0px;
+  margin-left: 50px;
+  background: transparent;
+  overflow: hidden;
+  z-index: 5%;
+  width: 198px;
+
+
+}

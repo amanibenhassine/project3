@@ -1,0 +1,45 @@
+
+
+  <mat-toolbar-row style="padding: 0 5px;">
+    <span><h2>My Favorite Jobs</h2></span>
+  </mat-toolbar-row>
+
+ <br>
+
+ <h1 style="font-size: 15px">Search Result:</h1>
+ <!-- <ul *ngFor =" let k of id_array">
+     <li>{{k.job_title}}</li>
+ </ul> -->
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th><span style="margin-left: 20px"></span>Job Title</th>
+                    <th><span style="margin-left: 20px"></span>Job Id</th>
+                    <th><span style="margin-left: 20px"></span>Job Type</th>
+                    <th><span style="margin-left: 20px"></span>location</th>
+                    <th><span style="margin-left: 20px"></span>Company</th>
+                    <th><span style="margin-left: 20px"></span>Job Expiration Date</th> 
+                    <th><span style="margin-left: 20px"></span>View</th> 
+                    <th><span style="margin-left: 20px"></span>Apply</th> 
+                    <th><span style="margin-left: 20px"></span>Delete</th> 
+                </tr>
+            </thead>
+            <tbody style="margin-left: 20px">
+                <tr *ngFor="let j of id_array">
+                    <td><span style="margin-left: 20px"></span>{{ j.job_title}}</td>
+                    <td><span style="margin-left: 20px"></span>{{ j.job_id }}</td> 
+                    <td><span style="margin-left: 20px"></span>{{ j.job_type }}</td> 
+                    <td><span style="margin-left: 20px"></span>{{ j.job_location }}</td>
+                    <td><span style="margin-left: 20px"></span>{{ j.job_company }}</td>
+                    <td><span style="margin-left: 20px"></span>{{ j.job_expirationDate }}</td>
+                    <td> <button mat-raised-button color="warn" (click)= "openDialog(j)">View</button></td>
+                    <td> <button mat-raised-button color="warn" routerLink="/jobappform"  (click)="applyJob(j)">Apply</button></td>
+                    <td> <button mat-raised-button color="warn"  (click)="delete(j)">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+ 
+
+

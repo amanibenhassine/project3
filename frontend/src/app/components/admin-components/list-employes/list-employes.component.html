@@ -1,0 +1,30 @@
+<mat-card-title style=" padding:1em;">List of Recruiters :</mat-card-title>
+
+<div style="padding: 16px;">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+        <div fxFlex="25%" *ngFor="let emp of   appResult ">
+    <mat-card style="background-color:antiquewhite;">
+        <mat-card-header>
+            <mat-card-title>{{emp.name}}</mat-card-title>
+            <mat-card-subtitle>{{emp.poste}}</mat-card-subtitle>
+                <img src="../../assets/img/homme.png"
+                 mat-card-avatar>
+         </mat-card-header>   
+            <mat-card-content>
+               <p> <mat-icon style="font-size: 18px;"> email</mat-icon>{{emp.email}}</p>
+               <p><mat-icon  style="font-size: 18px;"> call</mat-icon>{{emp.phone}}</p>
+            </mat-card-content>
+            <mat-card-actions  style="text-align: end;">
+                <button mat-icon-button  color="primary" >
+                        <mat-icon color="warn" style="cursor: pointer;" (click)="update(emp)">create</mat-icon>
+                     </button>  
+                <button mat-icon-button  color="primary">
+                    <mat-icon color="warn" style="cursor: pointer; " (click)="delete(emp)" >delete</mat-icon>
+                 </button>            
+                    
+            </mat-card-actions>
+        
+    </mat-card>
+</div>
+</div>
+</div>

@@ -1,0 +1,110 @@
+<!--<nav class="navbar  navbar-expand bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li style="margin-right: 20px; margin-left: 30px;">
+        <button type="button" class="btn btn-primary" routerLink="view-posting">Home</button>
+      </li>
+    </ul>
+    
+    <div style="align-content:end;">
+      <button type="button" class="btn btn-primary" style="margin-right:10px"routerLink="/hr-profile">Profile</button>
+      <button type="button" class="btn" style="background-color:#f7ae00" routerLink="/">Sign Out</button>
+    </div>
+
+  </div>
+</nav>-->
+
+    <span>
+      <h1>Edit Profile</h1>
+    </span>
+   
+ 
+
+<body>
+  <div>
+    <img src="{{pic}}" alt="Card image" class="pro_photo" style="height:100px; width: 100px; outline: 1px">
+    <br><br>
+      <div style="display:inline;">
+      <input type="file" style="display: none" (change)="selectFile($event)" #fileInput>
+      <button class="fa fa-file-image-o"style="display:inline-block" type="button" (click)="fileInput.click()"> Pick image </button>
+      <span style="margin-left: 2em"></span>
+      <button class="fa fa-upload" style="display:inline-block" type="button" (click)="uploadBotton()"> Upload </button>
+      </div>
+    </div>
+</body>
+
+      <mat-card style="margin-top: 2em">
+        <mat-label>Personal Information</mat-label>
+        <table class="example-full-width" cellspacing="2">
+          <tr>
+            <td>
+              <mat-form-field class="example-full-width">
+                <mat-label>First name</mat-label>
+                <input matInput [(ngModel)] = "firstName" [ngModelOptions]="{standalone: true}" >
+              </mat-form-field>
+            </td>
+            <td>
+              <mat-form-field class="example-full-width">
+                <mat-label>Last Name</mat-label>
+                <input matInput  [(ngModel)] = "lastName" [ngModelOptions]="{standalone: true}">
+              </mat-form-field>
+            </td>
+          </tr>
+         </table>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Telephone</mat-label>
+          <span matPrefix>+1 &nbsp;</span>
+          <input type="tel" matInput placeholder="555-555-1234" [(ngModel)] = "phone" [ngModelOptions]= "{standalone: true}" >
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Title at Work</mat-label>
+          <input matInput placeholder="Software Engineer" [(ngModel)] = "title" [ngModelOptions]="{standalone: true}" >
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Company</mat-label>
+          <input matInput placeholder="Apple" [(ngModel)] = "company" [ngModelOptions]="{standalone: true}" >
+        </mat-form-field>
+
+        <!-- <mat-form-field class="example-full-width">
+          <mat-label>Since</mat-label>
+          <input matInput placeholder="May 2016 " [(ngModel)]="startDate">
+        </mat-form-field> -->
+        <mat-form-field>
+          <mat-label>Start At:</mat-label>
+          <input matInput [matDatepicker]="picker1" [(ngModel)]="startDate">
+          <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+          <mat-datepicker #picker1></mat-datepicker>
+        </mat-form-field>
+
+      <mat-card style="margin-top: 2em; height: 300px">
+        <mat-label>Note</mat-label>
+        <p>
+          <mat-form-field class="example-full-width" >
+            <mat-label>Put your notes here:</mat-label>
+            <textarea matInput [(ngModel)] = "note"></textarea>
+          </mat-form-field>
+        </p>
+      </mat-card>
+
+      <mat-card style="margin-top: 2em; height: 150px;">
+        <mat-label>Contacts</mat-label>
+        <p>
+          <mat-form-field class="example-full-width">
+            <mat-label>Add you contacts here:</mat-label>
+            <textarea matInput [(ngModel)] = "contacts" [ngModelOptions]="{standalone: true}"> </textarea>
+          </mat-form-field>
+        </p>
+    </mat-card>
+
+  <button mat-raised-button color="warn" style="margin-top: 2em" (click) = "SaveUpdate()"> Save</button>
+  
+
+
+

@@ -1,0 +1,43 @@
+<mat-card-title style=" padding:1em;">Add Recruiters :</mat-card-title>
+
+
+<body>
+  <div>
+    <mat-form-field style="width:500px;">
+      <mat-label>Name:</mat-label>
+      <input matInput  [(ngModel)] = "RecruiterName">
+    </mat-form-field>
+    <br>
+    <mat-form-field style="width:500px;">
+      <mat-label>Poste:</mat-label>
+      <input matInput  [(ngModel)] = "RecruiterPoste">
+    </mat-form-field>
+    <br>
+    <mat-form-field style="width:500px;">
+      <mat-label>Email:</mat-label>
+      <input matInput  [(ngModel)] = "RecruiterEmail">
+    </mat-form-field>
+   
+    <br>
+      
+    <mat-form-field style="width:500px;">
+      <mat-label>Phone:</mat-label>
+      <input matInput  [(ngModel)] = "RecruiterPhone">
+    </mat-form-field>
+      
+    
+    <br>
+    <div style="display:inline">
+      <div  *ngIf = "posted">
+        <button mat-raised-button color="warn" style="display:inline-block; margin-top: 2em" (click)="submit()">Submit</button>
+      </div>
+      <div *ngIf = "!posted" >
+        <button mat-raised-button color="warn" style="margin-left: 2em; display:inline-block; margin-top: 2em" (click)="postAnother()">Post Another Recruiter</button>
+      </div>
+    </div>
+  </div>
+
+ 
+</body>
+
+         
